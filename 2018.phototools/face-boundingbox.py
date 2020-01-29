@@ -11,7 +11,7 @@ import os
 import cv2
 import dlib
 
-input_dir = 'V:\\pic\\2018-05'
+input_dir = 'V:\\temp\\2018-05'
 
 output_dir = './dataset/jing200'
 size = 200
