@@ -79,8 +79,8 @@ def gendata(i,imgname1,imgname2):
     subimg[1]['StoragePath']='/capshot3000/'+imgname2
     subimg[0]['DeviceID']=devid
     subimg[1]['DeviceID']=devid
-    subimg[0]['ShotTime']=shorttime
-    subimg[1]['ShotTime']=shorttime
+    subimg[0]['ShotTime']=obj["FaceAppearTime"]
+    subimg[1]['ShotTime']=obj["FaceAppearTime"]
     
     return rec
 
